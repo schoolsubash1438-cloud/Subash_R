@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subash - Student Portfolio</title>
+    <meta name="description" content="Subash's personal student portfolio featuring projects, skills, and resume.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background Animation -->
+    <div class="bg-shape shape1"></div>
+    <div class="bg-shape shape2"></div>
+    <div class="bg-shape shape3"></div>
+
+    <!-- Sticky Navigation -->
+    <header class="glass-nav" id="main-header">
+        <nav class="container">
+            <a href="#home" class="logo" id="nav-logo">Subash <span>. R</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-item active">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+                <li><a href="#resume" class="nav-item">Resume</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <div id="home" class="page-section active-page">
+        <!-- Hero Section -->
+        <section class="hero section">
+            <div class="container hero-content">
+                <div class="hero-text reveal-left">
+                    <h1>Hi, I'm <br><span class="highlight">Subash R</span></h1>
+                    <h2 class="typing-container">I am a <span class="typing-text" id="typing-text"></span><span
+                            class="cursor">|</span></h2>
+                    <p>A passionate student developer driven by logical problem-solving, C++ programming, and creative visual design.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary glow-effect">View My Work</a>
+                        <a href="#contact" class="btn btn-outline glow-effect">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/717825f153-jpg" target="_blank" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/harish.hp.9480/" target="_blank" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/sxbass.___/" target="_blank" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.geeksforgeeks.org/profile/user_02go1iifx4v" target="_blank" class="social-icon" title="GeeksForGeeks"><i class="fas fa-laptop-code"></i></a>
+                        <a href="https://leetcode.com/u/Subash_kce/" target="_blank" class="social-icon" title="LeetCode"><i class="fas fa-code"></i></a>
+                        <a href="https://www.codechef.com/users/subash_08" target="_blank" class="social-icon" title="CodeChef"><i class="fas fa-terminal"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image reveal-right">
+                    <div class="image-glass-container">
+                        <img src="Profile.jpg" alt="Subash Profile" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page-section">
+        <!-- About Section -->
+        <section class="about section">
+            <div class="container">
+                <div class="about-content grid-2-col">
+                    <div class="about-text glass-card reveal-left">
+                        <h3>About Me</h3>
+                        <p>Hi, I’m Subash, a passionate student developer with a strong interest in C++ programming,
+                            data structures, and problem-solving. I enjoy building my logical thinking through coding
+                            challenges and exploring concepts like arrays, stacks, binary search trees, and synchronous
+                            counters.</p>
+                        <p>I am always eager to learn new technologies and improve my skills by finding efficient and
+                            alternative solutions to real-world problems. My curiosity for technology drives me to
+                            continuously grow as a programmer and future software developer.</p>
+                        <div class="education-timeline mt-4">
+                            <h4>Education</h4>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h5>B.Tech Information Technology</h5>
+                                <p class="text-sm">Karpagam College of Engineering | Present</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h5>Mary Ward Matric Higher Secondary School</h5>
+                                <p class="text-sm">Grade 1 - Grade 12</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills glass-card reveal-right">
+                        <h3>My Skills</h3>
+                        <div class="skillbox">
+                            <div class="skill-name">
+                                <span>HTML</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skillbox">
+                            <div class="skill-name">
+                                <span>CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skillbox">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar fill" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skillbox">
+                            <div class="skill-name">
+                                <span>Python</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar fill" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skillbox">
+                            <div class="skill-name">
+                                <span>C</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar fill" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skillbox">
+                            <div class="skill-name">
+                                <span>C++</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar fill" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What I'm Doing Section -->
+        <section class="what-i-do section">
+            <div class="container">
+                <h2 class="section-title reveal-up">What I'm Doing</h2>
+                <div class="doing-grid">
+                    <!-- Card 1 -->
+                    <div class="doing-card glass-card reveal-up">
+                        <div class="doing-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="doing-info">
+                            <h3>Competitive Programming</h3>
+                            <p class="text-sm" style="margin-bottom: 0;">Daily practicing in LeetCode, CodeChef, and GeeksforGeeks in Data Structures & Algorithms.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="doing-card glass-card reveal-up" style="transition-delay: 0.1s;">
+                        <div class="doing-icon">
+                            <i class="fas fa-mobile-screen"></i>
+                        </div>
+                        <div class="doing-info">
+                            <h3>Web Development</h3>
+                            <p class="text-sm" style="margin-bottom: 0;">Project Ongoing: Building an Event Booking Website using modern web technologies.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="doing-card glass-card reveal-up" style="transition-delay: 0.2s;">
+                        <div class="doing-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="doing-info">
+                            <h3>Algorithmic Coding</h3>
+                            <p class="text-sm" style="margin-bottom: 0;">Immersed in advanced algorithmic coding and high-level competitive programming.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="doing-card glass-card reveal-up" style="transition-delay: 0.3s;">
+                        <div class="doing-icon">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                        <div class="doing-info">
+                            <h3>Current Specialization</h3>
+                            <div class="tags small" style="margin: 0;">
+                                <span>Simulation</span>
+                                <span>Queues & Stacks</span>
+                                <span>BST & AVL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <!-- Portfolio Page -->
+        <div id="portfolio" class="page-section">
+        <!-- Portfolio Section (Projects & Certificates) -->
+        <section class="portfolio section">
+            <div class="container">
+                <div class="grid-2-col">
+                    <!-- Projects Column -->
+                    <div id="projects" class="projects glass-card reveal-left" style="scroll-margin-top: 100px;">
+                        <h3>Projects</h3>
+                        
+                        <!-- Ongoing Project -->
+                        <div class="project-item" style="margin-top: 1.5rem;">
+                            <div class="project-img-wrapper" style="height: 180px; margin-bottom: 1rem;">
+                                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800"
+                                    alt="Event Booking Website" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-sm);">
+                            </div>
+                            <h5 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Event Booking Website (Ongoing)</h5>
+                            <p class="text-sm" style="margin-bottom: 1rem;">An ongoing project to build a comprehensive platform for discovering and booking events, featuring real-time availability and a seamless user experience.</p>
+                            <div class="tags" style="margin: 0.5rem 0 1.5rem 0;">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span>
+                            </div>
+                            <a href="#" class="btn-text">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Certificates Column -->
+                    <div id="certificates" class="certificates glass-card reveal-right" style="scroll-margin-top: 100px;">
+                        <h3>Certificates</h3>
+                        
+                        <div class="cert-list" style="margin-top: 1.5rem;">
+                            <div class="cert-item cert-trigger" style="padding: 0; box-shadow: none; transform: none; text-align: left;"
+                                data-title="Certificate of Completion"
+                                data-img="cretificates.jpeg"
+                                data-issuer="Course" data-date="Present">
+                                <img src="cretificates.jpeg"
+                                    alt="Certificate" style="height: 180px; margin-bottom: 1rem; object-fit: cover; border-radius: var(--radius-sm); width: 100%;">
+                                <h5 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Certificate of Completion</h5>
+                                <p class="text-sm" style="margin-bottom: 1.5rem;">Course | Present</p>
+                                <a href="#" class="btn-text" style="pointer-events: none;">View Certificate <i class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <!-- Resume Page -->
+        <div id="resume" class="page-section">
+        <!-- Resume Section -->
+        <section class="resume section">
+            <div class="container reveal-up">
+                <div class="glass-card resume-card text-center">
+                    <h2 class="section-title no-bottom-margin">My Resume</h2>
+                    <p class="resume-subtitle">Download my formal resume to know more about my experience and skills.
+                    </p>
+                    <div class="resume-preview">
+                        <div class="doc-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="doc-info">
+                            <h4>Subash_Resume_2026.pdf</h4>
+                            <p>1.2 MB</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary glow-effect resume-download-btn"><i class="fas fa-download"></i>
+                        Download Resume</a>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact" class="page-section">
+        <!-- Contact Section -->
+        <section class="contact section">
+            <div class="container">
+                <h2 class="section-title reveal-up">Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info glass-card reveal-left">
+                        <h3>Let's Talk</h3>
+                        <p>Feel free to reach out for collaborations, project requests, or just to say hi!</p>
+                        <div class="info-items">
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span><a href="mailto:kdsubash1438@gmail.com">kdsubash1438@gmail.com</a></span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9655358291</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Coimbatore.India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper glass-card reveal-right">
+                        <form id="contact-form" class="contact-form">
+                            <div class="input-group">
+                                <input type="text" id="name" required placeholder=" ">
+                                <label for="name">Your Name</label>
+                                <span class="error-msg" id="name-error">Please enter your name</span>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="email" required placeholder=" ">
+                                <label for="email">Your Email</label>
+                                <span class="error-msg" id="email-error">Please enter a valid email</span>
+                            </div>
+                            <div class="input-group">
+                                <textarea id="message" rows="4" required placeholder=" "></textarea>
+                                <label for="message">Your Message</label>
+                                <span class="error-msg" id="message-error">Please enter a message</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary glow-effect w-100">Send Message <i
+                                    class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Subash. All rights reserved.</p>
+            <div class="social-links small">
+                <a href="https://github.com/717825f153-jpg" target="_blank" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/harish.hp.9480/" target="_blank" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/sxbass.___/" target="_blank" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.geeksforgeeks.org/profile/user_02go1iifx4v" target="_blank" class="social-icon" title="GeeksForGeeks"><i class="fas fa-laptop-code"></i></a>
+                <a href="https://leetcode.com/u/Subash_kce/" target="_blank" class="social-icon" title="LeetCode"><i class="fas fa-code"></i></a>
+                <a href="https://www.codechef.com/users/subash_08" target="_blank" class="social-icon" title="CodeChef"><i class="fas fa-terminal"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <div class="modal-body">
+                <img id="modal-img" src="" alt="Certificate">
+                <div class="modal-info">
+                    <h3 id="modal-title">Certificate Title</h3>
+                    <p>Issuer: <span id="modal-issuer"></span></p>
+                    <p>Date: <span id="modal-date"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
